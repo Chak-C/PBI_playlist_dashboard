@@ -27,7 +27,7 @@ This dashboard analyzes my preferences on music and showcases general patterns i
 
 These queries are not included in the SQL files.
 
-Calculating the mode key:
+### [1] Calculating the mode key:
 
   ModeKey = 
   
@@ -43,7 +43,7 @@ Calculating the mode key:
       ), FinalDataset[Key]
   )
 
-Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spectrogram(s):
+### [2] Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spectrogram(s):
 
   Chart End = 
   MAXX(
@@ -55,11 +55,11 @@ Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spec
       [AverageFreq]
   ) * 1.1
 
-Caclulating average kbps (from bit rate):
+### [3] Caclulating average kbps (from bit rate):
 
   AVERAGE(FinalDataset[Bit rate]) / 1000
 
-Calculating track per artist ratio:
+### [4] Calculating track per artist ratio:
 
   Ratio = COUNTROWS(DISTINCT(FinalDataset[Title]))/COUNTROWS(DISTINCT(FinalDataset[Artist]))
  
