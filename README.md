@@ -27,8 +27,8 @@ This dashboard analyzes my preferences on music and showcases general patterns i
 
 These queries are not included in the SQL files.
 
-### [1] Calculating the mode key:
-
+Calculating the mode key:
+'''
   ModeKey = 
   
   MINX(
@@ -41,10 +41,9 @@ These queries are not included in the SQL files.
           [Frequency],
           0
       ), FinalDataset[Key]
-  )
-
-### [2] Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spectrogram(s):
-
+'''
+Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spectrogram(s):
+'''
   Chart End = 
   MAXX(
       SUMMARIZE(
@@ -54,15 +53,15 @@ These queries are not included in the SQL files.
       ),
       [AverageFreq]
   ) * 1.1
-
-### [3] Caclulating average kbps (from bit rate):
-
+'''
+Caclulating average kbps (from bit rate):
+'''
   AVERAGE(FinalDataset[Bit rate]) / 1000
-
-### [4] Calculating track per artist ratio:
-
+'''
+Calculating track per artist ratio:
+'''
   Ratio = COUNTROWS(DISTINCT(FinalDataset[Title]))/COUNTROWS(DISTINCT(FinalDataset[Artist]))
- 
+'''
 # Insights
 
 The dashboard was created on Power BI Desktop & it was then published to Power BI Service & uploaded to NovyPro for ease of access for the public (reduce need of signing into MicroSoft).
