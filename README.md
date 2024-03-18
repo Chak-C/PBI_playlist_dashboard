@@ -1,7 +1,7 @@
 # Music Playlist Dashboard
 
 
-# Dashboard Snapshot (Power BI DESKTOP)
+## Dashboard Snapshot (Power BI DESKTOP)
 
 ![Dashboard_upload](https://raw.githubusercontent.com/Chak-C/PBI_playlist_dashboard/main/thumbnail.PNG)
 
