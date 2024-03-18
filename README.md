@@ -14,6 +14,8 @@ This dashboard analyzes my preferences on music and showcases general patterns i
 
 [https://github.com/Chak-C/Music_Data_Extraction/tree/master]
 
+## About the project
+
 ### Steps followed 
 
 - Step 1 : Create a new database in SQL Server Management Studio (SSMS) and organise the needed CSV files in a folder (see my Music Extraction Project for sample outputs)
