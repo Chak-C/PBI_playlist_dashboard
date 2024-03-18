@@ -1,6 +1,6 @@
 # Music Playlist Dashboard
 
-### Dashboard Link : [https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection](https://www.novypro.com/project/my-playlists-dashboard)
+### Dashboard Link : [NovyPro -  My Playlists Dashboard](https://www.novypro.com/project/my-playlists-dashboard)
 
 ## Dashboard Snapshot (Power BI DESKTOP)
 
@@ -10,7 +10,9 @@
 
 This dashboard analyzes my preferences on music and showcases general patterns in different types of music. It allows the public to judge me based on my music tastes. Through different statistics retrieved or predicted from the previous project (Music Extraction), this project undergoes cleaning, transforming and visualising processes of data analytics using SQL and Power Query (with a bit more Python) to create a dashboard that presents the playlist in a statistical and interesting format.
 
-## Music Extraction Project Link: [https://github.com/Chak-C/Music_Data_Extraction/tree/master]
+## Music Extraction Project Link: 
+
+[https://github.com/Chak-C/Music_Data_Extraction/tree/master]
 
 ### Steps followed 
 
