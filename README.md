@@ -28,7 +28,7 @@ This dashboard analyzes my preferences on music and showcases general patterns i
 These queries are not included in the SQL files.
 
 Calculating the mode key:
-'''
+```
   ModeKey = 
   
   MINX(
@@ -41,9 +41,9 @@ Calculating the mode key:
           [Frequency],
           0
       ), FinalDataset[Key]
-'''
+```
 Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spectrogram(s):
-'''
+```
   Chart End = 
   MAXX(
       SUMMARIZE(
@@ -53,15 +53,15 @@ Calculating the dynamic Y-axis maximum value for the unfiltered vs filtered spec
       ),
       [AverageFreq]
   ) * 1.1
-'''
+```
 Caclulating average kbps (from bit rate):
-'''
+```
   AVERAGE(FinalDataset[Bit rate]) / 1000
-'''
+```
 Calculating track per artist ratio:
-'''
+```
   Ratio = COUNTROWS(DISTINCT(FinalDataset[Title]))/COUNTROWS(DISTINCT(FinalDataset[Artist]))
-'''
+```
 # Insights
 
 The dashboard was created on Power BI Desktop & it was then published to Power BI Service & uploaded to NovyPro for ease of access for the public (reduce need of signing into MicroSoft).
@@ -82,7 +82,7 @@ The following inferences, majority depicting my musical preferences, can be draw
            
 ### [2] Tempo of Music
 
-    Excluding the 1 track in 2007, general trend of the tempo of music in the playlist seems to be increasing.
+Excluding the 1 track in 2007, general trend of the tempo of music in the playlist seems to be increasing.
   
 ### [3] Feature of Music 
   
@@ -94,15 +94,15 @@ The following inferences, majority depicting my musical preferences, can be draw
       f) Speechiness, the presense of spoken words (not lyrics) in the track: 0.06/1
       g) Valence, music positiveness conveyed by the track: 0.46/1
 
-  I will leave the determination of the meaning of scores for the reader to descide.
+I will leave the determination of the meaning of scores for the reader to descide.
 
- ### [4] Some other insights
+### [4] Some other insights
  
- ### Spectrogram
+### Spectrogram
  
- 1.1) The note ranges differs between each vocal class, the order is male, mixed/female, vocaloid, from lowest range to highest range.
+1.1) The note ranges differs between each vocal class, the order is male, mixed/female, vocaloid, from lowest range to highest range.
  
-         Results are fairly accurate to general expectations.
+Results are fairly accurate to general expectations.
 
 ### Genre of Music
 
