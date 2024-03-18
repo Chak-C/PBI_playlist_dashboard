@@ -1,11 +1,10 @@
 # Music Playlist Dashboard
 
+### Dashboard Link : [https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection](https://www.novypro.com/project/my-playlists-dashboard)
 
 ## Dashboard Snapshot (Power BI DESKTOP)
 
 ![Dashboard_upload](https://raw.githubusercontent.com/Chak-C/PBI_playlist_dashboard/main/thumbnail.PNG)
-
-### Dashboard Link : [https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection](https://www.novypro.com/project/my-playlists-dashboard)
 
 ## Problem Statement
 
