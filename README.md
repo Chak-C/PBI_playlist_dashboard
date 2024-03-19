@@ -124,3 +124,8 @@ Results are fairly accurate to general expectations.
 ### Most Common Key and Average duration of Playlist
 ### Spectrogram shifting when changing keys
 ### Relationship between Genre and Spectrogram of Music
+
+## Other Snapshots (Power BI DESKTOP)
+
+![Dashboard_upload](https://raw.githubusercontent.com/Chak-C/PBI_playlist_dashboard/main/PBI2.PNG)
+![Dashboard_upload](https://raw.githubusercontent.com/Chak-C/PBI_playlist_dashboard/main/PBI3.PNG)
