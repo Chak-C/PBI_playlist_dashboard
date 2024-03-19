@@ -99,7 +99,7 @@ Excluding the 1 track in 2007, general trend of the tempo of music in the playli
       f) Speechiness, the presense of spoken words (not lyrics) in the track: 0.06/1
       g) Valence, music positiveness conveyed by the track: 0.46/1
 
-I will leave the determination of the meaning of scores for the reader to descide.
+I will leave the determination of the meaning of scores for the reader to decide.
 
 ### [4] Some other insights
  
