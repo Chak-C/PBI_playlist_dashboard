@@ -119,11 +119,13 @@ Results are fairly accurate to general expectations.
 
 1.4) Other - 4.55%
 
-### Tracks Recorded per Year Increases
-### Most Listened to Artist
-### Most Common Key and Average duration of Playlist
-### Spectrogram shifting when changing keys
-### Relationship between Genre and Spectrogram of Music
+### Other Data
+
+- **Tracks Recorded per Year Increases**
+- **Most Listened to Artist**
+- **Most Common Key and Average duration of Playlist**
+- **Spectrogram shifting when changing keys**
+- **Relationship between Genre and Spectrogram of Music**
 
 ## Other Snapshots (Power BI DESKTOP)
 
